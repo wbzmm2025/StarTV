@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk.idsig
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 构建工具下载缓存, 误入仓库目录
+*.zip

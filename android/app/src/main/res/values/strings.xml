@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StarTV</string>
+    <string name="hint_dpad">↑↓←→ 移动焦点  ·  OK 键播放  ·  播放界面: 上下键换台, OK 键打开频道列表</string>
+    <string name="loading">正在加载频道列表…</string>
+    <string name="load_failed">频道列表加载失败，请检查网络后重启应用重试。\n若持续失败，请确认 GitHub 仓库 wbzmm2025/StarTV 中 startv.json 已生成。</string>
+    <string name="all_failed">该频道所有源均无法播放\n请按 OK 键打开频道列表选择其他频道，或稍后重试</string>
+    <string name="no_urls">该频道暂无可用源\n请按 OK 键打开频道列表选择其他频道</string>
+</resources>

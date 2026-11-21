@@ -1,0 +1,32 @@
+{
+  "update_time": "2026-11-06",
+  "version": 1,
+  "channels": [
+    { "name": "CCTV-1 综合", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv1_2/index.m3u8"] },
+    { "name": "CCTV-2 财经", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv2hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv2_2/index.m3u8"] },
+    { "name": "CCTV-3 综艺", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv3_2/index.m3u8"] },
+    { "name": "CCTV-4 中文国际", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv4_2/index.m3u8"] },
+    { "name": "CCTV-5 体育", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv5_2/index.m3u8"] },
+    { "name": "CCTV-5+ 体育赛事", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv5p_2/index.m3u8"] },
+    { "name": "CCTV-6 电影", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8"] },
+    { "name": "CCTV-7 国防军事", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv7hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv7_2/index.m3u8"] },
+    { "name": "CCTV-8 电视剧", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8", "http://cctvalih5ca.v.myalicdn.com/live/cctv8_2/index.m3u8"] },
+    { "name": "CCTV-9 纪录", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctvjilu.m3u8"] },
+    { "name": "CCTV-10 科教", "group": "央视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/cctvjiaoyu.m3u8"] },
+    { "name": "CCTV-13 新闻", "group": "央视", "logo": "", "urls": ["http://cctvalih5ca.v.myalicdn.com/live/cctv13_2/index.m3u8"] },
+    { "name": "北京卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/beijinghd.m3u8"] },
+    { "name": "湖南卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/hunanhd.m3u8"] },
+    { "name": "浙江卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/zhejianghd.m3u8"] },
+    { "name": "江苏卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/jiangsuhd.m3u8"] },
+    { "name": "东方卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/dongfanghd.m3u8"] },
+    { "name": "广东卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/guangdonghd.m3u8"] },
+    { "name": "深圳卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/shenzhenhd.m3u8"] },
+    { "name": "山东卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/shandonghd.m3u8"] },
+    { "name": "安徽卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/anhuihd.m3u8"] },
+    { "name": "天津卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/tianjinhd.m3u8"] },
+    { "name": "湖北卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/hubeihd.m3u8"] },
+    { "name": "广西卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/guangxihd.m3u8"] },
+    { "name": "辽宁卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/liaoninghd.m3u8"] },
+    { "name": "黑龙江卫视", "group": "卫视", "logo": "", "urls": ["http://ivi.bupt.edu.cn/hls/longjianghd.m3u8"] }
+  ]
+}

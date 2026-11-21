@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0E1420</color>
+    <color name="bg_card">#1A2332</color>
+    <color name="bg_focus">#2F6FED</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9AA6B8</color>
+    <color name="accent">#FFD54F</color>
+    <color name="error">#FF6E6E</color>
+    <color name="overlay_bg">#CC0A0F1A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

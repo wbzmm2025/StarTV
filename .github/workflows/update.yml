@@ -1,0 +1,43 @@
+name: Update StarTV Sources
+
+# 每日 UTC+8 00:00 更新（UTC 16:00 = 北京时间次日 00:00）
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-startv
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch and merge live sources
+        run: python scripts/fetch_sources.py
+
+      - name: Commit startv.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add startv.json
+          git diff --cached --quiet || git commit -m "chore: 每日更新 startv.json [skip ci]"
+          git push

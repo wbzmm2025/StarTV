@@ -1,0 +1,12 @@
+{
+  "update_time": "2026-11-06",
+  "version": 1,
+  "channels": [
+    {
+      "name": "CCTV-1 综合",
+      "group": "央视",
+      "logo": "",
+      "urls": []
+    }
+  ]
+}
